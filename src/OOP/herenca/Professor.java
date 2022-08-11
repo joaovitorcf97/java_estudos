@@ -7,4 +7,9 @@ public class Professor extends Pessoa {
         super(nome, idade);
         this.salario = salario;
     }
+
+    @Override
+    public void fazerAdmissao() {
+        System.out.println("Olá, professor! Seu salário será de " + salario);
+    }
 }

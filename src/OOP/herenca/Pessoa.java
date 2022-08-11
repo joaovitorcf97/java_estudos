@@ -1,6 +1,6 @@
 package OOP.herenca;
 
-public class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     protected int idade;
 
@@ -9,9 +9,14 @@ public class Pessoa {
         this.idade = idade;
     }
     // Getters e Setters
+
+    // Metodo concreto
     public void fazerAniversario() {
         idade++;
     }
+
+    // Metodo abstrato
+    public abstract void fazerAdmissao();
 
     public int getIdade() {
         return idade;

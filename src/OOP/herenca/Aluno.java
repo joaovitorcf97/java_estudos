@@ -12,4 +12,13 @@ public class Aluno extends Pessoa {
         super.fazerAniversario();
         System.out.println("Feliz aniversário, querido(a) aluno(a)!");
     }
+
+    @Override
+    public void fazerAdmissao() {
+        System.out.println("Olá, aluno! Peça a seus pais para fazerem a sua matricula na escola" );
+    }
+
+    public void estudar() {
+        System.out.println("Estude muito!");
+    }
 }
